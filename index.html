@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Chatbot</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light">
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- Título del chatbot -->
+                <div class="text-center mb-4">
+                    <h1 class="display-4">Ada</h1>
+                    <p class="lead text-muted">Your intelligent AI assistant</p>
+                </div>
+                
+                <!-- Panel principal -->
+                <div class="card shadow">
+                    <!-- Header -->
+                    <div class="card-header bg-primary text-white py-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="mb-0">Chat</h3>
+                            <span class="badge bg-light text-primary">Powered by Hugging Face</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Chat Area -->
+                    <div class="card-body p-0">
+                        <div class="chat-container p-3" id="chat-container">
+                            <!-- Mensaje inicial del bot -->
+                            <div class="message bot">
+                                <div class="message-content">
+                                    <p>¡Hi! I'm Ada, your assistant. How can I help you with, surf in Wikipedia or consult the weather. ¿What do you want to do today?</p>
+                                </div>
+                                <div class="message-time">Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Input Area -->
+                    <div class="card-footer bg-white">
+                        <form id="message-form" class="d-flex align-items-center">
+                            <input type="text" id="user-input" class="form-control me-2" placeholder="Escribe un mensaje...">
+                            <button type="submit" class="btn btn-primary px-4">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div id="typing-indicator" class="text-muted small mt-2 d-none">
+                            <i class="fas fa-spinner fa-spin me-1"></i> Ada is writting...
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sugerencias -->
+                <div class="card mt-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Try asking</h5>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <button class="btn btn-sm btn-outline-secondary suggestion-btn">¿What is AI?</button>
+                            <button class="btn btn-sm btn-outline-secondary suggestion-btn">¿How is the weather in Madrid?</button>
+                            <button class="btn btn-sm btn-outline-secondary suggestion-btn">¿Who was Ada Lovelace?</button>
+                            <button class="btn btn-sm btn-outline-secondary suggestion-btn">Search information about dinosaurs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
