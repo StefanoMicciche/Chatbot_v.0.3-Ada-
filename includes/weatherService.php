@@ -1,6 +1,6 @@
 <?php
 
-require_once 'config.php';
+require_once __DIR__ . '/config.php';
 
 class WeatherService {
     private $apiKey;
@@ -42,13 +42,14 @@ class WeatherService {
             // Format response
             return [
                 'status' => 'success',
-                'city' => $data['name'],
-                'country' => $data['sys']['country'],
-                'temperature' => $this->kelvinToCelsius($data['main']['temp']),
-                'feels_like' => $this->kelvinToCelsius($data['main']['feels_like']),
-                'humidity' => $data['main']['humidity'],
-                'wind_speed' => $data['wind']['speed'],
-                'icon' => $data['weather'][0]['icon'],
+                'city' => isset($data['name']) ? $data['name'] : " ",
+                'country' => isset($data['sys']['country']) ? $data['sys']['country'] : " ",
+                'temperature' => isset($data['main']['temp']) ? $this->kelvinToCelsius($data['main']['temp']) : " ",
+                'feels_like' => isset($data['main']['feels_like']) ? $this->kelvinToCelsius($data['main']['feels_like']) : " ",
+                'humidity' => isset($data['main']['humidity']) ? $data['main']['humidity'] : " ",
+                'wind_speed' => isset($data['wind']['speed']) ? $data['wind']['speed'] : " ",
+                'description' => isset($data['weather'][0]['description']) ? $data['weather'][0]['description'] : " ",
+                'icon' => isset($data['weather'][0]['icon']) ? $data['weather'][0]['icon'] : " ",
             ];
         } catch (exception $e) {
             logError('Error in WeatherService: ' . $e->getMessage());
