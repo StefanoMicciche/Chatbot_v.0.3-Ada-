@@ -5,8 +5,11 @@ define ('API_TOKEN', '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');
 define('API_URL', 'https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill');
 
 //API Weather configuration (WeatherStack)
-define ('API_WEATHER_KEY', 'e4a5e890f9d0634bbf28610aed92f583');
-define ('API_WEATHER_URL', 'http://api.weatherstack.com/');
+define ('API_WEATHER_KEY', '5937c518d3da7732cfac1f864817ea18');
+define ('API_WEATHER_URL', 'https://api.openweathermap.org/data/2.5/weather');
+
+//define ('API_WEATHER_KEY', 'e4a5e890f9d0634bbf28610aed92f583');
+//define ('API_WEATHER_URL', 'http://api.weatherstack.com/');
 
 //API Image generation configuration (StarryAI)
 define ('API_IMAGE_KEY', '5uSa-IemV7eHSW1UfwnvbHHpQxMPbg');
