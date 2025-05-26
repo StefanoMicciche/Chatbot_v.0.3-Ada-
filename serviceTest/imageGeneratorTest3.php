@@ -136,7 +136,7 @@ class TestImageGeneratorService {
             if ($error) {
                 return [
                     'status' => 'error',
-                    'message' => "Error de conexión: $error"
+                    'message' => "Connection error: $error"
                 ];
             }
 
@@ -152,7 +152,7 @@ class TestImageGeneratorService {
             if (!$this->isValidImageContent($contentType, $imageData)) {
                 return [
                     'status' => 'error',
-                    'message' => "Contenido no válido. Tipo: " . ($contentType ?? 'desconocido')
+                    'message' => "Not valid content. Type: " . ($contentType ?? 'unknown') 
                 ];
             }
 
@@ -164,7 +164,7 @@ class TestImageGeneratorService {
                 $savedPath = $this->saveImageLocally($imageData, $prompt, $source);
                 if ($savedPath) {
                     $localPath = $savedPath;
-                    $finalUrl = $savedPath; // Usar la ruta local como URL principal
+                    $finalUrl = $savedPath; // Use local path as final URL
                 }
             }
 
@@ -541,17 +541,19 @@ echo "</div>";
 echo "<h2>🖼️ Basic image generator test</h2>";
 
 $prompts = [
-    "Beautiful landscape with mountains and a river",
-    "A cat playing with a ball of yarn",
-    "A futuristic city skyline at night",
-    "A serene beach with palm trees and a sunset",
+    // "Beautiful landscape with mountains and a river",
+    // "A cat playing with a ball of yarn",
+    // "A futuristic city skyline at night",
+    // "A serene beach with palm trees and a sunset",
+    // "A car driving through a forest road",
+    "A rose garden in full bloom",
 ];
 
 $successful = 0;
 $total = count($prompts);
 
 foreach ($prompts as $i => $prompt) {
-    echo "<div class='loading'>🔄 Generating image " . ($i + 1) . " de $total: \"<strong>$prompt</strong>\"</div>";
+    echo "<div class='loading'>🔄 Generating image " . ($i + 1) . " of $total: \"<strong>$prompt</strong>\"</div>";
     flush();
     
     $result = $imageGenerator->generateImage($prompt);
@@ -569,8 +571,10 @@ foreach ($prompts as $i => $prompt) {
 echo "<h2>🎭 Specific styles test</h2>";
 
 $styleTests = [
-    ['prompt' => 'A magic forest', 'style' => 'fantasy'],
-    ['prompt' => 'Person portrait', 'style' => 'realistic']
+    // ['prompt' => 'A magic forest', 'style' => 'fantasy'],
+    // ['prompt' => 'Person portrait', 'style' => 'realistic'],
+    ['prompt' => 'A daisies field', 'style' => 'watercolor'],
+    ['prompt' => 'A pot full with tulips', 'style' => 'realistic']
 ];
 
 foreach ($styleTests as $i => $test) {
@@ -597,7 +601,7 @@ echo "<div style='font-size:1.2em;'>";
 echo "<strong>Total Tests:</strong> $totalTests<br>";
 echo "<strong>Success:</strong> $successful<br>";
 echo "<strong>Success Rate:</strong> <span style='font-size:1.5em; color:#2e7d32;'>$successRate%</span><br>";
-echo "<strong>Completado:</strong> " . date('H:i:s');
+echo "<strong>Completed:</strong> " . date('H:i:s');
 echo "</div>";
 echo "</div>";
 
