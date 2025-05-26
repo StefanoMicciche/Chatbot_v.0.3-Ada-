@@ -1,0 +1,72 @@
+[2025-05-23 18:00:52] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:00:52] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:00:53] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+sunset+over+mountains
+[2025-05-23 18:00:55] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:00:55] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:00:56] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+cute+cat+playing
+[2025-05-23 18:00:59] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:00:59] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:01:00] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Futuristic+city
+[2025-05-23 18:01:03] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:01:03] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:01:04] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Colorful+abstract+art
+[2025-05-23 18:01:05] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:01:05] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:01:06] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+forest+scene%2C+fantasy+art%2C+magical%2C+ethereal%2C+mystical
+[2025-05-23 18:01:08] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:01:08] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:01:09] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Woman+portrait%2C+photorealistic%2C+high+detail%2C+professional+photography
+[2025-05-23 18:16:23] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:16:23] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:16:24] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+sunset+over+mountains
+[2025-05-23 18:16:27] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:16:27] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:16:27] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+cute+cat+playing
+[2025-05-23 18:16:30] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:16:30] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:16:31] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Futuristic+city
+[2025-05-23 18:16:34] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:16:34] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:16:35] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Colorful+abstract+art
+[2025-05-23 18:16:35] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:16:35] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:16:36] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+forest+scene%2C+fantasy+art%2C+magical%2C+ethereal%2C+mystical
+[2025-05-23 18:16:39] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-23 18:16:39] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-23 18:16:39] HTTP error 429 for URL: https://lexica.art/api/v1/search?q=Woman+portrait%2C+photorealistic%2C+high+detail%2C+professional+photography
+[2025-05-25 21:17:20] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-25 21:17:20] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-25 21:17:21] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+sunset+over+mountains
+[2025-05-25 21:17:24] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-25 21:17:24] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-25 21:17:25] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+cute+cat+playing
+[2025-05-25 21:17:27] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-25 21:17:27] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-25 21:17:28] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Futuristic+city
+[2025-05-25 21:17:31] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-25 21:17:31] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-25 21:17:32] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Colorful+abstract+art
+[2025-05-25 21:17:32] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-25 21:17:32] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-25 21:17:33] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+forest+scene%2C+fantasy+art%2C+magical%2C+ethereal%2C+mystical
+[2025-05-25 21:17:36] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-25 21:17:36] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-25 21:17:36] HTTP error 429 for URL: https://lexica.art/api/v1/search?q=Woman+portrait%2C+photorealistic%2C+high+detail%2C+professional+photography
+[2025-05-26 10:15:51] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-26 10:15:51] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-26 10:15:52] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+sunset+over+mountains
+[2025-05-26 10:15:55] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-26 10:15:55] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-26 10:15:56] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+cute+cat+playing
+[2025-05-26 10:15:59] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-26 10:15:59] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-26 10:16:00] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Futuristic+city
+[2025-05-26 10:16:02] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-26 10:16:02] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-26 10:16:03] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Colorful+abstract+art
+[2025-05-26 10:16:04] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-26 10:16:04] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-26 10:16:05] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=A+forest+scene%2C+fantasy+art%2C+magical%2C+ethereal%2C+mystical
+[2025-05-26 10:16:08] StarryAI request failed with HTTP code: 404. Response: {"detail":"Not Found"}
+[2025-05-26 10:16:08] StarryAI failed, using fallback service: Failed to connect to StarryAI service.
+[2025-05-26 10:16:08] HTTP error 500 for URL: https://lexica.art/api/v1/search?q=Woman+portrait%2C+photorealistic%2C+high+detail%2C+professional+photography

@@ -172,11 +172,15 @@ function displayJsonResult($data, $title = '') {
 
 //Show how to interact with Ada
 echo "<h2>🤖 Example of integration</h2>";
-echo "<h3>Request processing: \"How's the weather in Madrid?\"</h3>";
+echo "<h3>Request processing: \"How's the weather in...\"</h3>";
 
 // Definir el mensaje de prueba AQUÍ (no más abajo)
 $testMessage = "How's the weather in Madrid?";
 $testMessage = "Como esta el clima en Londres?";
+$testMessage = "Clima en Barcelona";
+$testMessage = "Hows the weather in Venecia?";
+$testMessage = "¿Cómo está el clima en Alicante?";
+
 
 echo "1. Applying regex to detect weather query for: \"$testMessage\"<br>";
 
@@ -270,7 +274,8 @@ if ($patternMatched && $cityFound) {
         "Weather in Tokyo",
         "Temperature in Paris",
         "¿Cómo está el clima en Madrid?",
-        "Clima en Barcelona"
+        "Clima en Barcelona",
+        "Hows the weather in Venecia?",
     ];
     
     echo "<ul style='margin:10px 0;'>";
